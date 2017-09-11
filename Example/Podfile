@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WZCircularProgressView_Example' do
+  pod 'WZCircularProgressView', :path => '../'
+
+  target 'WZCircularProgressView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
